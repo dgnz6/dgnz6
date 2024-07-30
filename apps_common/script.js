@@ -65,7 +65,7 @@ if (siteSection == "main") {
 	var gaVal = 'inf_fdbkBtn: ' + ''; // ga val for ga_evCatVal
 	// / -------------- VARS TO CHANGE -------------
 	// create fdbk link for GDBSFRM
-	$('body').append('<div id="fdbk" style="box-shadow: 0 0 5px #555555;opacity:0.75;background-color: #008000; bottom: 20px; font: 12px/1em sans-serif; padding: 5px 10px; position: fixed; right: 20px;z-index:999;/* z-index for mappages */"><a id="fdbk_btn" style="color:#fff;display:block;height:100%;width:100%;cursor:pointer">Feedback</a></div>');
+	$('body').append('<div id="fdbk" style="box-shadow: 0 0 5px #555555;opacity:0.75;background-color: #286090; bottom: 20px; font: 12px/1em sans-serif; padding: 5px 10px; position: fixed; right: 20px;z-index:999;/* z-index for mappages */"><a id="fdbk_btn" style="color:#fff;display:block;height:100%;width:100%;cursor:pointer">Feedback</a></div>');
 	// 
 	function fdbk_openClose() {
 		if (document.getElementById('fdbk_window')) {
@@ -109,7 +109,7 @@ if (siteSection == "dyn_catcher") {
 		var div_id = 'crecdiv'; // receiving div, eg 'crecdiv' for /c/
 		var require_bootstrap = "yes"; // "yes"|"no"; if bootstrap not already available.
 		var form_headline = '<div style="font-size:20px;line-height:2.5em;"> <!-- <img style="height:1em;display:inline-block;vertical-align:middle;" src="" /> --> Send us a message! </div> ';
-		var thankyou_headline = '<h2>Thank You!</h2> <h3>Your submission has been sent.</h3>';
+		var thankyou_headline = '<h2>Thank You!</h2> <h3>Your message has been sent.</h3>';
 		var form_elements = '' + // bs form markup
 			// 
 			'<div class="form-group">' +
